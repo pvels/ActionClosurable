@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.author           = { "takasek" => "takassekiyoshi@gmail.com" }
   s.source           = { :git => "https://github.com/takasek/ActionClosurable.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/takasek'
-
+  s.swift_version = '5.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ActionClosurable/*.swift'
